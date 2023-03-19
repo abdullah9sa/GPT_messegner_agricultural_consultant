@@ -1,5 +1,5 @@
 <h1> AgriConsult: Messenger Bot Integration with GPT-3.5 API </h1> 
-This project is a Messenger bot that integrates with OpenAI's GPT-3.5 API to provide personalized advice and recommendations to farmers related to plant and animal health, feeding, breeding, and other related topics.
+This project is a Messenger bot that integrates with OpenAI's GPT-3.5 API to provide personalized advice and recommendations to farmers related to plant and animal health, feeding, breeding, and other related topics. the project was created in 1 day for Qaf Lab AgriTech Hackathon.
 
 The bot is built using Django and utilizes a webhook to receive messages from Messenger. Upon receiving a message, the bot filters it and generates a response based on the GPT-3.5 API and system parameters defined for AgriConsult.
 
