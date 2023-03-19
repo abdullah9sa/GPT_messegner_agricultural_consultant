@@ -289,8 +289,7 @@ def send_response(request):
                 "recipient": {"id": recipient_id},
                 "messaging_type": "RESPONSE",
                 "message": {"text": txt},
-            }
-        
+            }  
         params = {"access_token": access_token}
         headers = {"Content-Type": "application/json"}
         response = requests.post(url, headers=headers, params=params, data=json.dumps(message_data))
